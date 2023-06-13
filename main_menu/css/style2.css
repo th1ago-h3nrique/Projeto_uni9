@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+html,body{ height: 100%;}
+
+.sidebar{
+    float: left;
+    width: 250px;
+    padding: 10px 10px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: black;
+    overflow-x: hidden;
+
+}
+
+.sidebar-wraper{
+    padding-bottom: 200px;
+}
+
+.sidebar__menu{
+    margin: 20px 0;
+    color: rgb(190, 190, 190);
+}
+
+.sidebar__logo img{
+    width: 300px;
+    max-width: 100%;
+}
+
+.sidebar__menu a{
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.sidebar__menu svg{
+    margin: 0 20px;
+    
+}
+
+.sidebar__menu a.sidebar__menu__selecionado{
+    color: white;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+}
+
+.img_ico{
+    max-width: 100%;
+    width: 20px;
+    vertical-align: bottom;
+}
+
+
+.sidebar__menu__item{
+    margin-top: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.sidebar__menu p.sidebar__menu__title{
+    color:white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.sidebar__menu__item__componente{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.sidebar__menu__item span{
+   font-weight: bold;
+   font-size: 14px;
+   padding: 0 10px;
+}
+
+.sidebar__menu__item img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.sidebar__playlists{
+    padding: 20px 0;
+    border-top: 1px solid rgb(40,40,40);
+}
+
+.sidebar__playlists a{
+    margin: 10px 0;
+    display: block;
+    color: rgb(190,190,190);
+    text-decoration: none;
+}
+
+.sidebar__playlists a:hover{
+color: white;
+}
+
+
+
+/*  navbar */
+
+.hiperlinks{
+    text-decoration: none;
+    font-size: 30px;
+    ;
+}

@@ -1,0 +1,21 @@
+.text h3{
+    font-size: large;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.text h1{
+    font-size: large;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.background{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    width: 300vh;
+    height: 300vh;
+}
