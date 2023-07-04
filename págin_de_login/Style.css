@@ -246,6 +246,10 @@ p{
     text-decoration: none;
 }
 
+.inscrevase:hover {
+    color: #800180;
+}
+
 .link{
     color: #fff;
     text-decoration: none;
